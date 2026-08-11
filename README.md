@@ -1,6 +1,8 @@
 # Real-Time ECG Monitoring Prototype
 
-Educational undergraduate ECG thesis prototype:
+Independent educational and research engineering prototype developed by Ali Mohammadi (2026).
+
+Author and maintainer: Ali Mohammadi
 
 **Design and Implementation of a Real-Time ECG Monitoring System for PQRST Detection and Preliminary Arrhythmia Risk Estimation Using Arduino, AD8232, and Computer-Based Digital Signal Processing**
 
@@ -14,8 +16,8 @@ emergency monitoring.
 - `ecg_monitor/` — Python DSP, QRS detection, PQRST estimation, SQI, warnings, and exploratory ML.
 - `scripts/` — evaluation, log analysis, and ML scripts.
 - `tests/` — unit tests.
-- `docs/deepresearch/` — research synthesis inputs and thesis synthesis.
-- `docs/thesis/` — generated thesis Chapter 4, Chapter 5, IEEE references, and figures.
+- `docs/deepresearch/` — research synthesis inputs and technical-report synthesis.
+- `docs/technical_report/` — generated technical-report chapters, IEEE references, and figures.
 - `results/` — generated evaluation outputs.
 
 ## Hardware Setup
@@ -58,7 +60,8 @@ The Python parser also keeps backward compatibility with the older
 ## Installation
 
 ```bash
-cd /Users/ali/Documents/Bachlor
+git clone https://github.com/AliMohammadiiii/real-time-ecg-monitor.git
+cd real-time-ecg-monitor
 python3 -m venv .venv
 .venv/bin/python -m pip install --upgrade pip
 .venv/bin/python -m pip install -r requirements.txt
@@ -241,12 +244,12 @@ Generated artifacts:
 - `results/figures/qtdb_timing_error_distribution.png`
 - `results/ecg_session_report.html`
 
-## Thesis Files
+## Technical Report Files
 
-- `docs/thesis/chapter4_implementation.md`
-- `docs/thesis/chapter5_conclusion.md`
-- `docs/thesis/references_ieee.md`
-- `docs/thesis/figures/*.svg`
+- `docs/technical_report/chapter4_implementation.md`
+- `docs/technical_report/chapter5_conclusion.md`
+- `docs/technical_report/references_ieee.md`
+- `docs/technical_report/figures/*.svg`
 
 ## Additional Documentation
 

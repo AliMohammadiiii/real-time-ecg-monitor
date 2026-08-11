@@ -30,10 +30,9 @@ figures.
 
 ## Verified Artifacts
 
-- `docs/thesis/chapter4_implementation.md`
-- `docs/thesis/chapter5_conclusion.md`
-- `docs/report_final.docx`
-- `output/report_final_render/report_final.pdf`
+- `docs/technical_report/chapter4_implementation.md`
+- `docs/technical_report/chapter5_conclusion.md`
+- `Technical_Report/Real_Time_ECG_Monitor_Technical_Report.docx`
 - `results/real_ad8232_comparison/real_ad8232_comparison_report.html`
 - `results/real_ad8232_comparison/real_subject_gui_marker_snapshots.png`
 

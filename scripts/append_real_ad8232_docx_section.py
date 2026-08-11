@@ -1,4 +1,4 @@
-"""Append the final real AD8232 clean-window analysis to the thesis DOCX."""
+"""Append the final real AD8232 clean-window analysis to the technical report."""
 
 from __future__ import annotations
 
@@ -11,11 +11,12 @@ from docx.shared import Inches, Pt
 
 
 ROOT = Path(__file__).resolve().parents[1]
-INPUT_DOCX = ROOT / "docs" / "report.docx"
-OUTPUT_DOCX = ROOT / "docs" / "report_final.docx"
+TECHNICAL_REPORT_DOCX = ROOT / "Technical_Report" / "Real_Time_ECG_Monitor_Technical_Report.docx"
+INPUT_DOCX = TECHNICAL_REPORT_DOCX
+OUTPUT_DOCX = TECHNICAL_REPORT_DOCX
 COMPARISON_JSON = ROOT / "results" / "real_ad8232_comparison" / "real_ad8232_session_comparison.json"
 FIGURE_DIR = ROOT / "results" / "real_ad8232_comparison"
-THESIS_FIGURE_DIR = ROOT / "docs" / "thesis" / "figures"
+TECHNICAL_REPORT_FIGURE_DIR = ROOT / "docs" / "technical_report" / "figures"
 
 
 def _fmt(value: float | None, digits: int = 2) -> str:
@@ -144,14 +145,14 @@ def main() -> int:
         doc,
         "hardware/electrode_placement_ra_la_rl.png",
         "شکل پیوست-۱: محل رایج الکترودهای RA/LA/RL در setup سه‌الکتروده آموزشی",
-        base_dir=THESIS_FIGURE_DIR,
+        base_dir=TECHNICAL_REPORT_FIGURE_DIR,
         width_inches=4.4,
     )
     _add_figure(
         doc,
         "hardware/ad8232_arduino_wiring_reference.png",
         "شکل پیوست-۲: اتصال Arduino Uno، ماژول AD8232 و سه الکترود",
-        base_dir=THESIS_FIGURE_DIR,
+        base_dir=TECHNICAL_REPORT_FIGURE_DIR,
         width_inches=5.5,
     )
 

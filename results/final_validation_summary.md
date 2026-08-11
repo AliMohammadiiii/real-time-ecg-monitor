@@ -78,8 +78,8 @@ Presentation/report artifacts:
 - `results/real_ad8232_comparison/real_ad8232_comparison_report.md`
 - `results/real_ad8232_comparison/real_ad8232_comparison_report.html`
 - `output/playwright/ecg_session_report_full.png`
-- `docs/thesis/chapter4_implementation.md`
-- `docs/thesis/chapter5_conclusion.md`
+- `docs/technical_report/chapter4_implementation.md`
+- `docs/technical_report/chapter5_conclusion.md`
 
 ## Remaining Scientific Limitations
 
