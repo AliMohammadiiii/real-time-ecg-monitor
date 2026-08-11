@@ -1,0 +1,19 @@
+{
+  "source": "run_live_gui.py --mode live",
+  "port": "/dev/cu.usbmodem1401",
+  "baud": 115200,
+  "fs": 250.0,
+  "chunk_seconds": 0.04,
+  "started_utc": "2026-07-04T15:36:53.200805+00:00",
+  "finished_utc": "2026-07-04T15:39:05.607910+00:00",
+  "log_file": "20260704_190653_ad8232_live_log.csv",
+  "packet_format": "S,<seq>,<micros>,<adc>,<lo_plus>,<lo_minus>,<checksum>",
+  "valid_samples": 32662,
+  "malformed_packets": 0,
+  "checksum_errors": 0,
+  "dropped_packets": 0,
+  "packet_loss_rate": 0.0,
+  "estimated_sampling_rate_hz": 250.00000765438926,
+  "lead_off_samples": 0,
+  "device": "Arduino + AD8232 (educational, non-diagnostic)"
+}

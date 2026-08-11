@@ -1,0 +1,58 @@
+{
+  "accuracy": 0.9965277777777778,
+  "precision_macro": 0.4982638888888889,
+  "recall_macro": 0.5,
+  "f1_macro": 0.4991304347826087,
+  "f1_weighted": 0.9947946859903382,
+  "labels": [
+    "normal_like",
+    "warning_like"
+  ],
+  "confusion_matrix": [
+    [
+      287,
+      0
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "classification_report": "              precision    recall  f1-score   support\n\n normal_like       1.00      1.00      1.00       287\nwarning_like       0.00      0.00      0.00         1\n\n    accuracy                           1.00       288\n   macro avg       0.50      0.50      0.50       288\nweighted avg       0.99      1.00      0.99       288\n",
+  "auroc": 0.9965156794425087,
+  "scope": "exploratory_non_diagnostic",
+  "evaluation_source": "MIT-BIH DS2 (patient-wise, no leakage), scheme=binary",
+  "split": "ds1ds2",
+  "records": [
+    "100",
+    "103"
+  ],
+  "n_samples": 288,
+  "class_counts_test": {
+    "normal_like": 287,
+    "warning_like": 1
+  },
+  "skipped_beats": {
+    "non_beat_or_out_of_window": 4077,
+    "unlabelled_class": 0,
+    "records_failed": 0
+  },
+  "per_record": {
+    "100": {
+      "n_beats": 148,
+      "skipped": {
+        "non_beat_or_out_of_window": 2126,
+        "unlabelled_class": 0
+      }
+    },
+    "103": {
+      "n_beats": 140,
+      "skipped": {
+        "non_beat_or_out_of_window": 1951,
+        "unlabelled_class": 0
+      }
+    }
+  },
+  "unstable_small_classes": true,
+  "note": "Beat-type ML advisory; not a validated arrhythmia diagnosis."
+}

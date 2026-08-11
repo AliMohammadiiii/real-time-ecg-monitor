@@ -1,0 +1,10 @@
+numpy>=2.0
+wfdb>=4.1
+pyserial>=3.5
+scikit-learn>=1.4
+matplotlib>=3.7
+# Optional: live GUI only. Install a Qt binding + PyQtGraph to use
+# scripts/run_live_gui.py (e.g. `pip install pyqtgraph PyQt5`). The rest of the
+# project runs without these.
+# pyqtgraph>=0.13
+# PyQt5>=5.15

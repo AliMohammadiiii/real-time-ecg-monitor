@@ -1,0 +1,31 @@
+{
+  "scope": "exploratory_non_diagnostic",
+  "model": "logreg + StandardScaler (class_weight=balanced)",
+  "training_source": "synthetic ECG feature table",
+  "label_scheme": "binary_synthetic",
+  "split": "n/a",
+  "records": null,
+  "n_samples": 107,
+  "class_counts": {
+    "normal_like": 38,
+    "warning_like": 69
+  },
+  "skipped": {},
+  "per_record": {},
+  "feature_names": [
+    "rr_prev_s",
+    "rr_next_s",
+    "rr_ratio_to_median",
+    "instant_hr_bpm",
+    "local_median_hr_bpm",
+    "rr_cv",
+    "qrs_duration_s",
+    "r_amplitude",
+    "qrs_energy",
+    "sqi_numeric",
+    "p_visible",
+    "t_visible"
+  ],
+  "unstable_small_classes": false,
+  "note": "Beat-type ML experiment; not a validated diagnosis. Advisory only."
+}

@@ -1,0 +1,12 @@
+{
+  "subject_id": "derived_pvc",
+  "condition": "pvc",
+  "notes": "synthetic pvc rhythm built from real beat morphology of 20260704_190653_ad8232_live_log.csv (educational, non-diagnostic)",
+  "baud": 115200,
+  "started_utc": "2026-07-06T09:44:51.829051+00:00",
+  "log_file": "derived_pvc_ad8232_log.csv",
+  "packet_format": "S,<seq>,<micros>,<adc>,<lo_plus>,<lo_minus>",
+  "valid_samples": 6000,
+  "estimated_sampling_rate_hz": 250.0,
+  "device": "Derived from Arduino + AD8232 recording (educational, non-diagnostic)"
+}

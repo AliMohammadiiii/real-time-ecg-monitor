@@ -1,0 +1,8 @@
+detected_beats,estimated_sampling_rate_hz,expected_hr_bpm,hr_abs_error_bpm,hr_pass,malformed_packets,marker_completeness,mean_hr_bpm,overall_pass,packet_loss_rate,pqrst_expected,r_local_peak_error_max_adc,rhythm_label,rhythm_pass,rhythm_reasons,samples,scenario,source,sqi_level,sqi_score,valid_samples
+12,249.99991773612444,75.0,2.4679162663687748e-05,True,1,1.0,74.99997532083734,True,0.0,True,0.0,Normal rhythm candidate,True,No rule-based warning,2500,normal_75,serial,usable_for_pqrst,0.797548078300956,3040
+8,250.000082291008,45.0,1.9798812358941191,True,1,0.975,46.97988123589412,True,0.0,True,0.0,Low preliminary rhythm warning,True,Possible bradycardia,2499,brady_45,serial,usable_for_pqrst,0.8590733590733135,3039
+20,250.0,125.0,1.4210854715202004e-14,True,1,1.0,124.99999999999999,True,0.0,True,0.0,Low preliminary rhythm warning,True,Possible tachycardia,2498,tachy_125,serial,usable_for_pqrst,0.7513625857504773,3040
+15,250.00008226392967,,,True,1,0.9733333333333334,84.4051724685293,True,0.0,True,22.0,Moderate preliminary rhythm warning,True,Irregular RR intervals,2499,irregular_rr,serial,usable_for_pqrst,0.804878048780449,3040
+12,250.000082291008,75.0,2.4687302399684086e-05,True,1,1.0,75.0000246873024,True,0.0,True,0.0,Low preliminary rhythm warning,True,Wide QRS warning,2499,wide_qrs,serial,usable_for_pqrst,0.8490145148968384,3039
+12,250.00008226392967,75.0,2.4679178892483833e-05,True,1,1.0,75.00002467917889,True,0.0,False,0.0,Normal rhythm candidate,True,No rule-based warning,2499,noisy,serial,usable_for_rate_qrs,0.6436390724186853,3040
+0,250.0,,,True,1,0.0,,True,0.0,False,,Poor signal / unreliable analysis (warnings suppressed by SQI),True,SQI level unreliable; lead-off active,2500,lead_off,serial,unreliable,0.1,3040

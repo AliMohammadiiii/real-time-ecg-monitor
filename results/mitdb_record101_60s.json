@@ -1,0 +1,22 @@
+[
+  {
+    "record": "101",
+    "fs": 360.0,
+    "seconds": 60.0,
+    "detected_r_peaks": 76,
+    "reference_annotations": 72,
+    "tp": 71.0,
+    "fp": 5.0,
+    "fn": 1.0,
+    "sensitivity": 0.9861111111111112,
+    "positive_predictive_value": 0.9342105263157895,
+    "f1": 0.9594594594594595,
+    "mean_abs_timing_error_samples": 1.7605633802816902,
+    "median_abs_timing_error_samples": 2.0,
+    "timing_jitter_samples": 0.42673964528290464,
+    "mean_hr_bpm": 75.64791034321738,
+    "signal_quality": 0.8504672897069088,
+    "rhythm_label": "Low preliminary rhythm warning",
+    "reasons": "Irregular RR intervals"
+  }
+]

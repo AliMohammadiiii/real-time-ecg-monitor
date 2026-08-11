@@ -1,0 +1,22 @@
+[
+  {
+    "record": "100",
+    "fs": 360.0,
+    "seconds": 60.0,
+    "detected_r_peaks": 74,
+    "reference_annotations": 75,
+    "tp": 74.0,
+    "fp": 0.0,
+    "fn": 1.0,
+    "sensitivity": 0.9866666666666667,
+    "positive_predictive_value": 1.0,
+    "f1": 0.9932885906040269,
+    "mean_abs_timing_error_samples": 2.2972972972972974,
+    "median_abs_timing_error_samples": 2.0,
+    "timing_jitter_samples": 0.45706850068345306,
+    "mean_hr_bpm": 73.86518011898627,
+    "signal_quality": 0.7808219177911057,
+    "rhythm_label": "Normal rhythm candidate",
+    "reasons": "No rule-based warning"
+  }
+]

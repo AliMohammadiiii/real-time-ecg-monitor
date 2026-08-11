@@ -1,0 +1,42 @@
+{
+  "summary": {
+    "log_file": "data/real_ad8232/20260704_004533_ad8232_log.csv",
+    "valid_samples": 1587,
+    "malformed_packets": 0,
+    "dropped_packets": 0,
+    "packet_loss_rate": 0.0,
+    "duration_s": 6.343996,
+    "estimated_sampling_rate_hz": 250.00015762935539,
+    "mean_interval_us": 3999.997477931904,
+    "timing_jitter_std_us": 1.8107131644086216,
+    "timing_jitter_ratio": 0.0004526785765237043,
+    "adc_clipping_rate": 0.0,
+    "lead_off_sample_count": 0,
+    "lead_off_fraction": 0.0,
+    "lead_off_period_count": 0,
+    "flatline_period_count": 0,
+    "overall_sqi_level": "usable_for_pqrst",
+    "overall_sqi_score": 0.8195635430667886,
+    "overall_sqi_reasons": "basic SQI checks passed",
+    "r_peak_count": 13,
+    "mean_hr_bpm": 125.00007881467774,
+    "rhythm_label": "Low preliminary rhythm warning",
+    "rhythm_reasons": "Possible tachycardia",
+    "n_windows": 1,
+    "windows_warning_suppressed": 0
+  },
+  "lead_off_periods": [],
+  "flatline_periods": [],
+  "sqi_timeline": [
+    {
+      "t_start_s": 0.0,
+      "sqi_level": "usable_for_pqrst",
+      "sqi_score": 0.8199633699633337,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 10,
+      "mean_hr_bpm": 125.00007881467772,
+      "rhythm_label": "Low preliminary rhythm warning"
+    }
+  ]
+}

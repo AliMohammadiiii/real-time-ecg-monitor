@@ -1,0 +1,3 @@
+duration_label,seconds,records,tp,fp,fn,sensitivity,positive_predictive_value,f1,false_positives_per_minute,csv,json,summary_json
+1min,60.0,48,3660,54,127,0.9664642196989701,0.9854604200323102,0.9758698840154645,1.125,results/mitdb_qrs_1min.csv,results/mitdb_qrs_1min.json,results/mitdb_qrs_1min_summary.json
+5min,300.0,48,18221,293,555,0.9704409884959523,0.9841741384897915,0.9772593188522393,1.2208333333333334,results/mitdb_qrs_5min.csv,results/mitdb_qrs_5min.json,results/mitdb_qrs_5min_summary.json

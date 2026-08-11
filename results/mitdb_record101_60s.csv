@@ -1,0 +1,2 @@
+record,fs,seconds,detected_r_peaks,reference_annotations,tp,fp,fn,sensitivity,positive_predictive_value,f1,mean_abs_timing_error_samples,median_abs_timing_error_samples,timing_jitter_samples,mean_hr_bpm,signal_quality,rhythm_label,reasons
+101,360.0,60.0,76,72,71.0,5.0,1.0,0.9861111111111112,0.9342105263157895,0.9594594594594595,1.7605633802816902,2.0,0.42673964528290464,75.64791034321738,0.8504672897069088,Low preliminary rhythm warning,Irregular RR intervals

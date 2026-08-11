@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" viewBox="0 0 1000 250">
+  <style>text{font-family:Arial,sans-serif;font-size:18px;fill:#111}.box{fill:#ebf8ff;stroke:#2b6cb0;stroke-width:2;rx:7}.arrow{stroke:#333;stroke-width:2.5;marker-end:url(#a)}</style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+  <rect class="box" x="30" y="30" width="180" height="55"/><text x="62" y="64">MIT-BIH</text>
+  <line class="arrow" x1="210" y1="58" x2="330" y2="58"/><rect class="box" x="330" y="30" width="260" height="55"/><text x="362" y="64">QRS metrics: Se, PPV, F1</text>
+  <rect class="box" x="30" y="100" width="180" height="55"/><text x="72" y="134">QTDB</text>
+  <line class="arrow" x1="210" y1="128" x2="330" y2="128"/><rect class="box" x="330" y="100" width="260" height="55"/><text x="358" y="134">Fiducial timing errors</text>
+  <rect class="box" x="30" y="170" width="180" height="55"/><text x="69" y="204">NSTDB</text>
+  <line class="arrow" x1="210" y1="198" x2="330" y2="198"/><rect class="box" x="330" y="170" width="260" height="55"/><text x="372" y="204">Noise and SQI stress</text>
+  <rect class="box" x="660" y="100" width="170" height="55"/><text x="690" y="134">Real AD8232</text>
+  <line class="arrow" x1="830" y1="128" x2="900" y2="128"/><rect class="box" x="900" y="100" width="85" height="55"/><text x="916" y="123">Logs</text><text x="910" y="145">Latency</text>
+</svg>

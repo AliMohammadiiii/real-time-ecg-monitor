@@ -1,0 +1,2 @@
+record,fs,seconds,detected_r_peaks,reference_annotations,tp,fp,fn,sensitivity,positive_predictive_value,f1,mean_abs_timing_error_samples,median_abs_timing_error_samples,timing_jitter_samples,mean_hr_bpm,signal_quality,rhythm_label,reasons
+100,360.0,60.0,74,75,74.0,0.0,1.0,0.9866666666666667,1.0,0.9932885906040269,2.2972972972972974,2.0,0.45706850068345306,73.86518011898627,0.7808219177911057,Normal rhythm candidate,No rule-based warning

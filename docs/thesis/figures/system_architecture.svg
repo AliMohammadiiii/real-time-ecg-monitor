@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="220" viewBox="0 0 1100 220">
+  <style>text{font-family:Arial,sans-serif;font-size:20px;fill:#111} .box{fill:#f7fafc;stroke:#2b6cb0;stroke-width:2;rx:8} .arrow{stroke:#2d3748;stroke-width:3;marker-end:url(#a)}</style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#2d3748"/></marker></defs>
+  <rect class="box" x="20" y="70" width="130" height="70"/><text x="42" y="112">Electrodes</text>
+  <line class="arrow" x1="150" y1="105" x2="210" y2="105"/>
+  <rect class="box" x="210" y="70" width="150" height="70"/><text x="252" y="100">AD8232</text><text x="230" y="126">Analog Front End</text>
+  <line class="arrow" x1="360" y1="105" x2="420" y2="105"/>
+  <rect class="box" x="420" y="70" width="140" height="70"/><text x="450" y="100">Arduino</text><text x="438" y="126">ADC + LO</text>
+  <line class="arrow" x1="560" y1="105" x2="620" y2="105"/>
+  <rect class="box" x="620" y="70" width="130" height="70"/><text x="650" y="100">Serial</text><text x="636" y="126">CSV packets</text>
+  <line class="arrow" x1="750" y1="105" x2="810" y2="105"/>
+  <rect class="box" x="810" y="70" width="260" height="70"/><text x="842" y="100">Python DSP + SQI</text><text x="832" y="126">PQRST + warnings + logs</text>
+</svg>

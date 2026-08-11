@@ -1,0 +1,53 @@
+{
+  "scope": "exploratory_non_diagnostic",
+  "model": "logreg + StandardScaler (class_weight=balanced)",
+  "training_source": "MIT-BIH DS1 (patient-wise), scheme=binary",
+  "label_scheme": "binary",
+  "split": "ds1ds2",
+  "records": [
+    "101",
+    "106"
+  ],
+  "n_samples": 278,
+  "class_counts": {
+    "normal_like": 257,
+    "warning_like": 21
+  },
+  "skipped": {
+    "non_beat_or_out_of_window": 3694,
+    "unlabelled_class": 0,
+    "records_failed": 0
+  },
+  "per_record": {
+    "101": {
+      "n_beats": 140,
+      "skipped": {
+        "non_beat_or_out_of_window": 1734,
+        "unlabelled_class": 0
+      }
+    },
+    "106": {
+      "n_beats": 138,
+      "skipped": {
+        "non_beat_or_out_of_window": 1960,
+        "unlabelled_class": 0
+      }
+    }
+  },
+  "feature_names": [
+    "rr_prev_s",
+    "rr_next_s",
+    "rr_ratio_to_median",
+    "instant_hr_bpm",
+    "local_median_hr_bpm",
+    "rr_cv",
+    "qrs_duration_s",
+    "r_amplitude",
+    "qrs_energy",
+    "sqi_numeric",
+    "p_visible",
+    "t_visible"
+  ],
+  "unstable_small_classes": false,
+  "note": "Beat-type ML experiment; not a validated diagnosis. Advisory only."
+}

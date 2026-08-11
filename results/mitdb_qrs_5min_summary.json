@@ -1,0 +1,76 @@
+{
+  "records": 48,
+  "tp": 18221,
+  "fp": 293,
+  "fn": 555,
+  "sensitivity": 0.9704409884959523,
+  "positive_predictive_value": 0.9841741384897915,
+  "f1": 0.9772593188522393,
+  "false_positives_per_minute": 1.2208333333333334,
+  "worst_records_by_fp": [
+    {
+      "record": "117",
+      "fp": 41,
+      "fn": 1,
+      "sensitivity": 0.996031746031746,
+      "positive_predictive_value": 0.8595890410958904,
+      "f1": 0.9227941176470589
+    },
+    {
+      "record": "208",
+      "fp": 39,
+      "fn": 62,
+      "sensitivity": 0.8845437616387337,
+      "positive_predictive_value": 0.9241245136186771,
+      "f1": 0.9039010466222644
+    },
+    {
+      "record": "232",
+      "fp": 19,
+      "fn": 11,
+      "sensitivity": 0.9640522875816994,
+      "positive_predictive_value": 0.9394904458598726,
+      "f1": 0.9516129032258065
+    },
+    {
+      "record": "228",
+      "fp": 19,
+      "fn": 31,
+      "sensitivity": 0.9192708333333334,
+      "positive_predictive_value": 0.9489247311827957,
+      "f1": 0.933862433862434
+    },
+    {
+      "record": "207",
+      "fp": 15,
+      "fn": 67,
+      "sensitivity": 0.8441860465116279,
+      "positive_predictive_value": 0.9603174603174603,
+      "f1": 0.8985148514851485
+    },
+    {
+      "record": "113",
+      "fp": 13,
+      "fn": 1,
+      "sensitivity": 0.996551724137931,
+      "positive_predictive_value": 0.956953642384106,
+      "f1": 0.9763513513513513
+    },
+    {
+      "record": "104",
+      "fp": 13,
+      "fn": 47,
+      "sensitivity": 0.8867469879518072,
+      "positive_predictive_value": 0.9658792650918635,
+      "f1": 0.9246231155778893
+    },
+    {
+      "record": "114",
+      "fp": 12,
+      "fn": 0,
+      "sensitivity": 1.0,
+      "positive_predictive_value": 0.9583333333333334,
+      "f1": 0.9787234042553191
+    }
+  ]
+}

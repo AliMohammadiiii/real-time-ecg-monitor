@@ -1,0 +1,164 @@
+[
+  {
+    "records": 48,
+    "tp": 3660,
+    "fp": 54,
+    "fn": 127,
+    "sensitivity": 0.9664642196989701,
+    "positive_predictive_value": 0.9854604200323102,
+    "f1": 0.9758698840154645,
+    "false_positives_per_minute": 1.125,
+    "worst_records_by_fp": [
+      {
+        "record": "208",
+        "fp": 8,
+        "fn": 13,
+        "sensitivity": 0.8828828828828829,
+        "positive_predictive_value": 0.9245283018867925,
+        "f1": 0.903225806451613
+      },
+      {
+        "record": "117",
+        "fp": 7,
+        "fn": 1,
+        "sensitivity": 0.9803921568627451,
+        "positive_predictive_value": 0.8771929824561403,
+        "f1": 0.9259259259259259
+      },
+      {
+        "record": "232",
+        "fp": 7,
+        "fn": 2,
+        "sensitivity": 0.9661016949152542,
+        "positive_predictive_value": 0.890625,
+        "f1": 0.9268292682926829
+      },
+      {
+        "record": "207",
+        "fp": 7,
+        "fn": 22,
+        "sensitivity": 0.7731958762886598,
+        "positive_predictive_value": 0.9146341463414634,
+        "f1": 0.8379888268156425
+      },
+      {
+        "record": "113",
+        "fp": 4,
+        "fn": 1,
+        "sensitivity": 0.9830508474576272,
+        "positive_predictive_value": 0.9354838709677419,
+        "f1": 0.9586776859504132
+      },
+      {
+        "record": "123",
+        "fp": 3,
+        "fn": 1,
+        "sensitivity": 0.98,
+        "positive_predictive_value": 0.9423076923076923,
+        "f1": 0.9607843137254902
+      },
+      {
+        "record": "104",
+        "fp": 3,
+        "fn": 3,
+        "sensitivity": 0.961038961038961,
+        "positive_predictive_value": 0.961038961038961,
+        "f1": 0.961038961038961
+      },
+      {
+        "record": "202",
+        "fp": 2,
+        "fn": 1,
+        "sensitivity": 0.9814814814814815,
+        "positive_predictive_value": 0.9636363636363636,
+        "f1": 0.9724770642201834
+      }
+    ],
+    "duration_label": "1min",
+    "seconds": 60.0,
+    "csv": "results/mitdb_qrs_1min.csv",
+    "json": "results/mitdb_qrs_1min.json",
+    "summary_json": "results/mitdb_qrs_1min_summary.json"
+  },
+  {
+    "records": 48,
+    "tp": 18221,
+    "fp": 293,
+    "fn": 555,
+    "sensitivity": 0.9704409884959523,
+    "positive_predictive_value": 0.9841741384897915,
+    "f1": 0.9772593188522393,
+    "false_positives_per_minute": 1.2208333333333334,
+    "worst_records_by_fp": [
+      {
+        "record": "117",
+        "fp": 41,
+        "fn": 1,
+        "sensitivity": 0.996031746031746,
+        "positive_predictive_value": 0.8595890410958904,
+        "f1": 0.9227941176470589
+      },
+      {
+        "record": "208",
+        "fp": 39,
+        "fn": 62,
+        "sensitivity": 0.8845437616387337,
+        "positive_predictive_value": 0.9241245136186771,
+        "f1": 0.9039010466222644
+      },
+      {
+        "record": "232",
+        "fp": 19,
+        "fn": 11,
+        "sensitivity": 0.9640522875816994,
+        "positive_predictive_value": 0.9394904458598726,
+        "f1": 0.9516129032258065
+      },
+      {
+        "record": "228",
+        "fp": 19,
+        "fn": 31,
+        "sensitivity": 0.9192708333333334,
+        "positive_predictive_value": 0.9489247311827957,
+        "f1": 0.933862433862434
+      },
+      {
+        "record": "207",
+        "fp": 15,
+        "fn": 67,
+        "sensitivity": 0.8441860465116279,
+        "positive_predictive_value": 0.9603174603174603,
+        "f1": 0.8985148514851485
+      },
+      {
+        "record": "113",
+        "fp": 13,
+        "fn": 1,
+        "sensitivity": 0.996551724137931,
+        "positive_predictive_value": 0.956953642384106,
+        "f1": 0.9763513513513513
+      },
+      {
+        "record": "104",
+        "fp": 13,
+        "fn": 47,
+        "sensitivity": 0.8867469879518072,
+        "positive_predictive_value": 0.9658792650918635,
+        "f1": 0.9246231155778893
+      },
+      {
+        "record": "114",
+        "fp": 12,
+        "fn": 0,
+        "sensitivity": 1.0,
+        "positive_predictive_value": 0.9583333333333334,
+        "f1": 0.9787234042553191
+      }
+    ],
+    "duration_label": "5min",
+    "seconds": 300.0,
+    "csv": "results/mitdb_qrs_5min.csv",
+    "json": "results/mitdb_qrs_5min.json",
+    "summary_json": "results/mitdb_qrs_5min_summary.json"
+  }
+]

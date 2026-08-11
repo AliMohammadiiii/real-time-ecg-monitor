@@ -1,0 +1,16 @@
+metric,value
+accuracy,1.0
+precision_macro,1.0
+recall_macro,1.0
+f1_macro,1.0
+f1_weighted,1.0
+labels,"['normal_like', 'warning_like']"
+auroc,1.0
+scope,exploratory_non_diagnostic
+evaluation_source,synthetic holdout ECG feature table
+split,n/a
+records,
+n_samples,91
+skipped_beats,{}
+unstable_small_classes,False
+note,Beat-type ML advisory; not a validated arrhythmia diagnosis.

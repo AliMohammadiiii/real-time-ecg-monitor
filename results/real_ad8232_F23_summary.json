@@ -1,0 +1,293 @@
+{
+  "summary": {
+    "log_file": "data/real_ad8232/20260704_190653_ad8232_live_log.csv",
+    "valid_samples": 32662,
+    "malformed_packets": 0,
+    "checksum_errors": 0,
+    "dropped_packets": 0,
+    "packet_loss_rate": 0.0,
+    "duration_s": 130.643996,
+    "estimated_sampling_rate_hz": 250.00000765438926,
+    "mean_interval_us": 3999.9998775297754,
+    "timing_jitter_std_us": 1.8532552330488734,
+    "timing_jitter_ratio": 0.0004633138224477553,
+    "adc_clipping_rate": 0.006705039495438124,
+    "lead_off_sample_count": 0,
+    "lead_off_fraction": 0.0,
+    "lead_off_period_count": 0,
+    "flatline_period_count": 0,
+    "overall_sqi_level": "usable_for_pqrst",
+    "overall_sqi_score": 0.8002615198409093,
+    "overall_sqi_reasons": "basic SQI checks passed",
+    "r_peak_count": 174,
+    "mean_hr_bpm": 79.47932862029283,
+    "rhythm_label": "Moderate preliminary rhythm warning",
+    "rhythm_reasons": "Irregular RR intervals; Premature-beat suspicion",
+    "n_windows": 26,
+    "windows_warning_suppressed": 2
+  },
+  "lead_off_periods": [],
+  "flatline_periods": [],
+  "sqi_timeline": [
+    {
+      "t_start_s": 0.0,
+      "sqi_level": "poor",
+      "sqi_score": 0.4251589606073272,
+      "warning_allowed": false,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 80.07117682880796,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 4.999999846912219,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5360765012063075,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 80.6451637594804,
+      "rhythm_label": "Moderate preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 9.999999693824439,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6397368605103041,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 8,
+      "mean_hr_bpm": 87.71930093136466,
+      "rhythm_label": "Low preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 14.999999540736658,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6238045625092573,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 81.37432437213393,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 19.999999387648877,
+      "sqi_level": "usable_for_pqrst",
+      "sqi_score": 0.7442123094296518,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 73.09941744280388,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 24.9999992345611,
+      "sqi_level": "usable_for_pqrst",
+      "sqi_score": 0.7228121865636131,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 72.60406805064548,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 29.999999081473316,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6194117928059546,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 76.6609904221296,
+      "rhythm_label": "Low preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 34.99999892838554,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6349076572243,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 73.31378523589127,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 39.999998775297755,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5788905936871898,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 92.30769513392833,
+      "rhythm_label": "Moderate preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 44.99999862220997,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5310344827586007,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 71.9079600156441,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 49.9999984691222,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6170366142177609,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 76.46559282547166,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 54.999998316034414,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5713863595567066,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 76.53061458807835,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 59.99999816294663,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5757403293065985,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 76.85738920203256,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 64.99999800985886,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5649833755420655,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 70.68803232452099,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 69.99999785677107,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5720900113398919,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 78.20646746226984,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 74.99999770368329,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6159377287593688,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 76.40068145634987,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 79.99999755059551,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6122550017538333,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 70.3564749496405,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 84.99999739750773,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5662575059294176,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 77.80083225759002,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 89.99999724441994,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5216614938275846,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 75.3768867299666,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 94.99999709133216,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5672288588708041,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 80.71749126060999,
+      "rhythm_label": "Low preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 99.9999969382444,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.4726009637424748,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 74.3310230885201,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 104.99999678515661,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5846851146724049,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 73.81889989794959,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 109.99999663206883,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.5902100414769686,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 73.89162787814462,
+      "rhythm_label": "Normal rhythm candidate"
+    },
+    {
+      "t_start_s": 114.99999647898105,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.594518161346044,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 7,
+      "mean_hr_bpm": 93.16770471592146,
+      "rhythm_label": "Moderate preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 119.99999632589326,
+      "sqi_level": "unreliable",
+      "sqi_score": 0.1,
+      "warning_allowed": false,
+      "lead_off": false,
+      "r_peaks": 5,
+      "mean_hr_bpm": 62.69592668448634,
+      "rhythm_label": "Moderate preliminary rhythm warning"
+    },
+    {
+      "t_start_s": 124.99999617280548,
+      "sqi_level": "usable_for_rate_qrs",
+      "sqi_score": 0.6227777332929013,
+      "warning_allowed": true,
+      "lead_off": false,
+      "r_peaks": 6,
+      "mean_hr_bpm": 74.18397853245972,
+      "rhythm_label": "Normal rhythm candidate"
+    }
+  ]
+}

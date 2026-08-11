@@ -1,0 +1,19 @@
+{
+  "subject_id": "live_check_final",
+  "condition": "rest",
+  "notes": "codex final validation",
+  "port": "/dev/cu.usbmodem11401",
+  "baud": 115200,
+  "requested_duration_s": 8.0,
+  "started_utc": "2026-07-03T21:15:33.047581+00:00",
+  "finished_utc": "2026-07-03T21:15:41.053694+00:00",
+  "log_file": "20260704_004533_ad8232_log.csv",
+  "packet_format": "S,<seq>,<micros>,<adc>,<lo_plus>,<lo_minus>",
+  "valid_samples": 1587,
+  "malformed_packets": 0,
+  "dropped_packets": 0,
+  "packet_loss_rate": 0.0,
+  "estimated_sampling_rate_hz": 250.00015762935539,
+  "lead_off_samples": 0,
+  "device": "Arduino + AD8232 (educational, non-diagnostic)"
+}

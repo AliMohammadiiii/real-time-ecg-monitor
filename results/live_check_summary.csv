@@ -1,0 +1,25 @@
+metric,value
+log_file,data/real_ad8232/20260704_004343_ad8232_log.csv
+valid_samples,4585
+malformed_packets,0
+dropped_packets,0
+packet_loss_rate,0.0
+duration_s,18.335996
+estimated_sampling_rate_hz,250.0000545375337
+mean_interval_us,3999.999127399651
+timing_jitter_std_us,1.7948926784698929
+timing_jitter_ratio,0.0004487232675064932
+adc_clipping_rate,0.0
+lead_off_sample_count,0
+lead_off_fraction,0.0
+lead_off_period_count,0
+flatline_period_count,0
+overall_sqi_level,usable_for_pqrst
+overall_sqi_score,0.8210209628786242
+overall_sqi_reasons,basic SQI checks passed
+r_peak_count,38
+mean_hr_bpm,125.00002726876689
+rhythm_label,Low preliminary rhythm warning
+rhythm_reasons,Possible tachycardia
+n_windows,4
+windows_warning_suppressed,0

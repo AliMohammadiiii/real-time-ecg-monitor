@@ -1,0 +1,19 @@
+{
+  "subject_id": "sim001",
+  "condition": "rest",
+  "notes": "arduino simulated",
+  "port": "/dev/cu.usbmodem1401",
+  "baud": 115200,
+  "requested_duration_s": 30.0,
+  "started_utc": "2026-07-03T19:17:42.050039+00:00",
+  "finished_utc": "2026-07-03T19:18:12.058837+00:00",
+  "log_file": "20260703_224742_ad8232_log.csv",
+  "packet_format": "S,<seq>,<micros>,<adc>,<lo_plus>,<lo_minus>",
+  "valid_samples": 7492,
+  "malformed_packets": 3,
+  "dropped_packets": 0,
+  "packet_loss_rate": 0.0,
+  "estimated_sampling_rate_hz": 250.0,
+  "lead_off_samples": 0,
+  "device": "Arduino + AD8232 (educational, non-diagnostic)"
+}
